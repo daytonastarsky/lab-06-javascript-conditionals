@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+
+var num = prompt ("gimme a number");
+var tho = (num%1000);
+
+console.log (((num - tho)/1000) + " thousands"); 
+
+var hun = (num%100);
+
+console.log (((tho - hun)/100) + " hundreds"); 
+
+var ten = num%10;
+
+console.log (((hun - ten)/10) + " tens"); 
+
+var one = num%1;
+
+console.log (((ten - one)/1) + " ones"); 
+
+//console.log (tho);
+//console.log (hun);
+//console.log (ten);
+//console.log (one);
+
+  
+
+
+</script>
+</body>
+</html>
